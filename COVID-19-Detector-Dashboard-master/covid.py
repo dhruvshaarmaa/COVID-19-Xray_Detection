@@ -84,7 +84,7 @@ st.markdown("""
                     margin-bottom:4%;
                     }
                 .person1{
-                    background:url('https://pbs.twimg.com/profile_images/1261754024640086023/cGtGEnwC_400x400.jpg')no-repeat center center/cover;
+                    background:url('./pic.jpeg')no-repeat center center/cover;
                     width:150px;
                     height:150px; 
                     border-radius:50%;       
@@ -92,14 +92,14 @@ st.markdown("""
                 }
                 .css-qpy8u8,.css-bauj2f{color:#252627}
                 .person2{
-                    background:url('https://media-exp1.licdn.com/dms/image/C4D03AQHj-G7HKacpgw/profile-displayphoto-shrink_200_200/0/1590663509591?e=1633564800&v=beta&t=TyHtZhKcP9SJ4hNm2OtCPG8_uDJTu-VF3NDKxaeT58g')no-repeat center center/cover;
+                    background:url('https://media-exp1.licdn.com/dms/image/C4E03AQG5uWqIt0Ufug/profile-displayphoto-shrink_800_800/0/1594846613221?e=1646265600&v=beta&t=acMBc0jfXhYNs3X_sUePB5O11_9q2vklecWcLD2xaww')no-repeat center center/cover;
                     width:150px;
                     height:150px;                    
                     border-radius:50%; 
                     margin:auto;
                 }
                 .person3{
-                    background:url('https://media-exp1.licdn.com/dms/image/C4E03AQGFVetJwmDGHQ/profile-displayphoto-shrink_200_200/0/1620400899860?e=1633564800&v=beta&t=DvBvw8RXgC00s5jHyuToXp5NMesnZUD6hU3UzBhviG8')no-repeat center center/cover;
+                    background:url('https://media-exp1.licdn.com/dms/image/C5603AQGxqpB7X-MyLg/profile-displayphoto-shrink_800_800/0/1598204188099?e=1646265600&v=beta&t=fRJzOt-3ElqIc2mMdmKCpZnYqKm6RZ_hPBqBcbIEA54')no-repeat center center/cover;
                     width:150px;
                     height:150px;                    
                     border-radius:50%; 
@@ -501,20 +501,20 @@ def Home():
 def About():
     st.markdown(
                 '''<div class="container">
-                        <div class='view'><h1 class='Title'>Front-End Developer's</h1></div>
+                        <div class='view'><h1 class='Title'>Developer's</h1></div>
                         <div class="profile">
-                            <div class="person3"></div>
+                            <div class="person1"></div>
                             <h3>Aditya Rathod</h3>
                             <p>B.Tech (CSE)</P> 
                         </div>
                         <div class="profile">
-                            <div class="person4"></div>
-                            <h3>Dhruv Dutt Sharma</h3>
+                            <div class="person2"></div>
+                            <h3>Dhruv Sharma</h3>
                             <p>B.Tech (CSE)</P>
                         </div>
-                        <div class='view' ><h1 class='Title'> Back-End Developer's</h1> </div>
+                        <br/>
                         <div class="profile">
-                            <div class="person1"></div>
+                            <div class="person3"></div>
                             <h3>Mehul Jain</h3>
                             <p>B.Tech (CSE)</P>
                         </div>
