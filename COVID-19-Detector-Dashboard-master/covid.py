@@ -395,7 +395,9 @@ fig1 = go.Figure()
 def made_by():    
     st.sidebar.image('https://cdn.pixabay.com/photo/2020/03/30/11/49/corona-virus-4984021_960_720.jpg',width=300)
     st.sidebar.markdown('<h2 style="font-family:lora">Made by:</h2>',unsafe_allow_html=True)
-    st.sidebar.markdown('<p style="font-family:lora">--------NAMe--------',unsafe_allow_html=True)
+    st.sidebar.markdown('<p style="font-family:lora">--------Aditya Rathod--------',unsafe_allow_html=True)
+    st.sidebar.markdown('<p style="font-family:lora">--------Dhruv Dutt Sharma--------',unsafe_allow_html=True)
+    st.sidebar.markdown('<p style="font-family:lora">--------Mehul Jain--------',unsafe_allow_html=True)
 
    
 def Home():
@@ -502,19 +504,19 @@ def About():
                         <div class='view'><h1 class='Title'>Front-End Developer's</h1></div>
                         <div class="profile">
                             <div class="person3"></div>
-                            <h3>Ruchi Pundora</h3>
-                            <p>(MCA Student)</P> 
+                            <h3>Aditya Rathod</h3>
+                            <p>B.Tech (CSE)</P> 
                         </div>
                         <div class="profile">
                             <div class="person4"></div>
-                            <h3>Dharmik Midha</h3>
-                            <p>(MCA Student)</P>
+                            <h3>Dhruv Dutt Sharma</h3>
+                            <p>B.Tech (CSE)</P>
                         </div>
                         <div class='view' ><h1 class='Title'> Back-End Developer's</h1> </div>
                         <div class="profile">
                             <div class="person1"></div>
-                            <h3>Dhruv Ahuja</h3>
-                            <p>(MCA Student)</P>
+                            <h3>Mehul Jain</h3>
+                            <p>B.Tech (CSE)</P>
                         </div>
                    </div>
                 ''',unsafe_allow_html=True)
