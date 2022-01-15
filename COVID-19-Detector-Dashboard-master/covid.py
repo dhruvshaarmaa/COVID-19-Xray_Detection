@@ -84,7 +84,7 @@ st.markdown("""
                     margin-bottom:4%;
                     }
                 .person1{
-                    background:url('./pic.jpeg')no-repeat center center/cover;
+                    background:url('https://i.ibb.co/59PG5J4/pic.jpg')no-repeat center center/cover;
                     width:150px;
                     height:150px; 
                     border-radius:50%;       
